@@ -1,0 +1,27 @@
+package com.dystricht.Lab02;
+
+public class Flower {
+
+	private String flowerName;
+	private boolean edible = false;
+	
+	public Flower(String name){
+		this.flowerName = name;
+	}
+	
+	public String getName(){
+		return this.flowerName;
+	}
+	
+	public void setName(String name){
+		this.flowerName = name;
+	}
+	
+	public void isEdible(){
+		if(this.edible == false){
+			System.out.println(this.flowerName + " is not edible.");
+		} else{
+			System.out.println(this.flowerName + " is edible.");
+		}
+	}
+}

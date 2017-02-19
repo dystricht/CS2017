@@ -1,0 +1,19 @@
+package com.dystricht.InClassWork;
+
+public class AsciiCanvas {
+	
+	int sizeX;
+	int sizeY;
+	public AsciiCanvas(){
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		AsciiCanvas canvas = new AsciiCanvas();
+		
+		System.out.println(canvas);
+		
+	}
+
+}

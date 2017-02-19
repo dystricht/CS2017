@@ -1,0 +1,5 @@
+package com.dystricht.Lab02;
+
+public class Cauliflower extends Flower {
+
+}

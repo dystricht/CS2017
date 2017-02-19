@@ -1,0 +1,33 @@
+package com.dystricht.InClassWork;
+
+public class AsciiCanvas {
+	
+	int sizeX;
+	int sizeY;
+	char[][] charray;
+	
+	public AsciiCanvas(){
+		this.sizeX = 10;
+		this.sizeY = 20;
+		charray = new char[sizeX][sizeY];
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		AsciiCanvas canvas = new AsciiCanvas();
+		
+		System.out.println(canvas);
+		
+	}
+	
+	void fillCanvas(char character){
+		
+		for(int i=0; i < this.sizeX; i++){
+			for(int j=0; j < this.sizeY; j++){
+				//this.canvas[i][j];
+			}
+		}
+	}
+
+}

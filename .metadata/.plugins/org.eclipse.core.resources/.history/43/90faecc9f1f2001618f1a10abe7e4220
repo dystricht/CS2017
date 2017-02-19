@@ -1,0 +1,12 @@
+public class Flower {
+
+	private String flowerName;
+	
+	public Flower(){
+		
+	}
+	
+	public String getName(){
+		return this.flowerName;
+	}
+}

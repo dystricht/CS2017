@@ -1,0 +1,25 @@
+package com.dystricht.InClassWork;
+
+public class Main {
+
+	static AsciiCanvas canvas = new AsciiCanvas();
+
+	public static void main(String[] args) {
+		
+		makeCanvas();
+		
+//		canvas.replaceChar(new int[] {3,3}, 'D');
+//		canvas.dispCanvas();
+		
+		
+	}
+	
+	public void makeCanvas(){
+		canvas.fillCanvas('X');
+		canvas.dispCanvas();
+	}
+	
+	public void movement(){
+		
+	}
+}

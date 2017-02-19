@@ -1,0 +1,12 @@
+package com.dystricht.InClassWork;
+
+public class AsciiObject {
+
+	int x;
+	int y;
+	char sym = "C";
+	
+	public AsciiObject(){
+		
+	}
+}

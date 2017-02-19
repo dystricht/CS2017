@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;com.dystricht.Lab02.Flower.flowerName&apos; in &apos;com.dystricht.Lab02.Flower&apos;&#x0A;- Original project: &apos;Lab02&apos;&#x0A;- Original element: &apos;com.dystricht.Lab02.Flower.flowerName&apos;&#x0A;- Getter method name: &apos;getFlowerName&apos;&#x0A;- Setter method name: &apos;setFlowerName&apos;&#x0A;- Field visibility: &apos;public&apos;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;flowerName&apos;" flags="589830" getter="getFlowerName" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;com.dystricht.Lab02{Flower.java[Flower^flowerName" insertion="5" setter="setFlowerName" stamp="1487104085349" version="1.0" visibility="1"/>
+</session>

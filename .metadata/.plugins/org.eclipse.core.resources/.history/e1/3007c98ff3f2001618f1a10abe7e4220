@@ -1,0 +1,10 @@
+package com.dystricht.Lab02;
+
+public class Iris extends Flower {
+	
+	String color;
+	public Iris(){
+		super("Iris", false);
+		
+	}
+}
