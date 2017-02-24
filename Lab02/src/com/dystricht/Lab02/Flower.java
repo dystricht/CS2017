@@ -8,12 +8,12 @@ public class Flower {
 	private boolean edible;
 	
 	public Flower(String name){
-		this.setFlowerName(name);
+		this.flowerName = name;
 		this.edible = false;
 	}
 	
 	public Flower(String name, boolean edible){
-		this.setFlowerName(name);
+		this.flowerName = name;
 		this.edible = edible;
 	}
 	
@@ -26,28 +26,21 @@ public class Flower {
 	 * @return the name of the flower
 	 */
 	public String getName(){
-		return this.getFlowerName();
+		return this.flowerName;
 	}
 	
 	public void setName(String name){
-		this.setFlowerName(name);
+		this.flowerName = name;
 	}
 	
 	public void isEdible(){
 		if(this.edible == false){
-			System.out.println(this.getFlowerName() + " is not edible.");
+			System.out.println(this.getName() + " is not edible.");
 		} else{
-			System.out.println(this.getFlowerName() + " is edible.");
+			System.out.println(this.getName() + " is edible.");
 		}
 	}
 
-	public String getFlowerName() {
-		return flowerName;
-	}
-
-	public void setFlowerName(String flowerName) {
-		this.flowerName = flowerName;
-	}
 	
 	public static void main(String[] args){
 		Flower sunflower = new Flower("Sunflower", true);

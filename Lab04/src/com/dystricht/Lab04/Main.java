@@ -5,10 +5,20 @@ public class Main {
 	public static void main(String[] args) {
 		
 		double result;
-		result = exponentiation.exponentiate(13, 6);
+		result = LabMethods.exponentiate(13, 6);
 		
-		System.out.println(result);
 		
+		//System.out.println(LabMethods.golden(7));
+		
+		/**
+		 * Part III
+		 */
+		
+		int[] array = LabMethods.x;
+		
+		boolean exists = LabMethods.existingElement(array, 0, 15);
+		
+		System.out.println(exists);
 	}
 
 }

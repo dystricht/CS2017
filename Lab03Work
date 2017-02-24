@@ -1,0 +1,16 @@
+Problem #2
+----------
+3*recursive(3) = 27 * 3 = 81
+3*recursive(2) = 27
+3*recursive(1) = 9
+3*recursive(0) = 3
+
+Problem #3
+----------
+
+numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+
+start = 3, end = 7
+numbers[3] = 4, numbers[7] = 8
+
+4 + (5 + (6 + (7 + (8 + (0) ) ) ) ) = 30

@@ -1,0 +1,24 @@
+package com.dystricht.Lab02;
+
+public class Iris extends Flower {
+	
+	private String color;
+	
+	/**
+	 * Iris default constructor.
+	 * Not edible.
+	 * Default Iris color is Purple.
+	 */
+	public Iris(){
+		super("Iris", false);
+		this.color = "Purple";
+	}
+	
+	public String getName(){
+		return super.flowerName;
+	}
+	
+	public String getColor(){
+		return this.color;
+	}
+}

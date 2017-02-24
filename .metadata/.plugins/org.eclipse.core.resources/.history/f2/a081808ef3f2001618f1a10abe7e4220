@@ -1,8 +1,0 @@
-package com.dystricht.Lab02;
-
-public class Iris extends Flower {
-
-	public Iris(){
-		
-	}
-}

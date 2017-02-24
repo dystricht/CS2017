@@ -1,0 +1,22 @@
+package com.dystricht.Lab03;
+
+public class LabProblems {
+	
+	public static void printSomething(int x){
+		if(x<1){
+			System.out.println(x);
+			return;
+		}
+		System.out.println(x);
+		printSomething(x-1);
+	}
+	
+	public static void problemTwo(int a){
+		
+		if(a==0){
+			return 1;
+		}
+		
+	}
+
+}

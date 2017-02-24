@@ -1,0 +1,15 @@
+package com.dystricht.Lab04;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		double result;
+		result = LabMethods.exponentiate(13, 6);
+		
+		result = LabMethods.golden(3);
+		System.out.println(result);
+		
+	}
+
+}

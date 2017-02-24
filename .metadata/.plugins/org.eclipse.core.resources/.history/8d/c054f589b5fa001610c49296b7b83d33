@@ -1,0 +1,13 @@
+package com.dystricht.Lab03;
+
+public class Recursion{
+
+	
+	public static void main(String[] args){
+		//LabProblems.printSomething(4);
+		
+		int answer2;
+		
+		answer2 = LabProblems.problemTwo(4);
+	}
+}
