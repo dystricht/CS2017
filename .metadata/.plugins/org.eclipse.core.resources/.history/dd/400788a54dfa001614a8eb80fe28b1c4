@@ -1,0 +1,14 @@
+package com.dystricht.Lab04;
+
+/**
+ * Returns function x^m
+ * @author dillon strichman
+ *
+ */
+public class exponentiation {
+	
+	public static double exponentiation(){
+		
+	}
+
+}

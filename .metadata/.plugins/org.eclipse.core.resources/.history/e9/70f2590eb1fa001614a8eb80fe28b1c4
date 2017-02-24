@@ -1,0 +1,21 @@
+package com.dystricht.Lab04;
+
+/**
+ * Returns function x^m
+ * @author dillon strichman
+ *
+ */
+public class exponentiation {
+	
+	public static double exponentiate(double x, double m){
+		
+		double result = 0;
+		for(int i=0; i<m; i++){
+			
+		}
+		
+		return result;
+		
+	}
+
+}

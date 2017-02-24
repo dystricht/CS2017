@@ -1,0 +1,24 @@
+Pseudocode for printing 2D array
+int[][] towers;
+
+fillTowerArray();
+
+for(i; i<towers.length; i++){
+	for(j; j<towers[i].length; j++){
+		print(towers[i][j]);
+	}
+}
+
+
+{a, b, c, d}
+
+{ {a, b, c, d}, {e, f, g, h} }
+
+
+towers[0][1]
+X X X X X X X
+X X X X X X X
+X X X X X X X
+X X X X X X X
+
+

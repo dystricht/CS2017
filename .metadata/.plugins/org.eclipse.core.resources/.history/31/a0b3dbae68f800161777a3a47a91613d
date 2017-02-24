@@ -1,0 +1,11 @@
+package com.dystricht.TowersOfHanoi;
+
+public class TowerOfHanoi {
+
+	public static void main(String[] args) {
+
+		TowerOfHanoi tower = new TowerOfHanoi();
+		
+	}
+
+}

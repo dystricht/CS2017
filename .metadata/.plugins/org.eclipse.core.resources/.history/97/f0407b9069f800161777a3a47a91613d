@@ -1,0 +1,23 @@
+package com.dystricht.TowersOfHanoi;
+
+public class TowerOfHanoi {
+	int towers[][];
+	int numberOfDiscs;
+	
+	public TowerOfHanoi(){
+		this.numberOfDiscs = 3;
+		this.towers = new int[numberOfDiscs][3];
+	}
+	
+	public TowerOfHanoi(int numberOfDiscs){
+		this.numberOfDiscs = numberOfDiscs;
+		this.towers = new int[numberOfDiscs][3];
+	}
+	
+	public static void main(String[] args) {
+
+		TowerOfHanoi hanoi = new TowerOfHanoi();
+		
+	}
+
+}
